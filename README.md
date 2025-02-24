@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with React Router v6's catch-all route ('*').  The problem arises when the catch-all route is placed after more specific routes.  The solution involves reordering the routes to ensure the catch-all is the last one.  See the App.js file for the buggy code and AppSolution.js for the corrected version.
